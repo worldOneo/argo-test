@@ -6,4 +6,4 @@ configMapGenerator:
 kind: Kustomization
 namespace: argocd
 resources:
-- https://github.com/argoproj-labs/applicationset/tree/v0.1.0/manifests
+- github.com/argoproj-labs/applicationset/manifests?ref=v0.1.0
