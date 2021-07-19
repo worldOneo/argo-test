@@ -1,10 +1,11 @@
+
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: mongodb-prod
-  namespace: environment-prod
 spec:
   destination:
+    name: ''
     namespace: environment-prod
     server: 'https://kubernetes.default.svc'
   source:
@@ -12,9 +13,3 @@ spec:
     repoURL: 'https://github.com/worldOneo/argo-test'
     targetRevision: HEAD
   project: prod
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
-    syncOptions:
-    - CreateNamespace=true
