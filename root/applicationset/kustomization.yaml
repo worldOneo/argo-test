@@ -1,2 +1,0 @@
-bases:
-- github.com/argoproj-labs/applicationset//manifests?ref=v0.1.0
