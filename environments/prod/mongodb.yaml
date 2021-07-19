@@ -4,7 +4,7 @@ metadata:
   name: mongodb-prod
 spec:
   destination:
-    namespace: environment-prod
+    namespace: prod-environment
     server: 'https://kubernetes.default.svc'
   source:
     path: environments/prod/mongodb
