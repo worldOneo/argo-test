@@ -1,3 +1,3 @@
 # Applications in directories here:
-applications/dev or  
+applications/staging or  
 applications/prod

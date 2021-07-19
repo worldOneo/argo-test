@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/sync-options: PruneLast=true
     argocd.argoproj.io/sync-wave: "-2"
   creationTimestamp: null
-  name: test
+  name: staging
   namespace: argocd
 spec:
   clusterResourceWhitelist:
