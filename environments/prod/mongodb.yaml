@@ -1,11 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: mongo-prod
+  name: mongodb-prod
 spec:
   destination:
-    name: ''
-    namespace: prod
+    namespace: environment-prod
     server: 'https://kubernetes.default.svc'
   source:
     path: environments/prod/mongodb
