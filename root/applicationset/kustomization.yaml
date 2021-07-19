@@ -1,0 +1,2 @@
+bases:
+- ithub.com/argoproj-labs/applicationset//manifests?ref=v0.1.0

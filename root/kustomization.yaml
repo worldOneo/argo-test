@@ -1,7 +1,0 @@
-apiVersion: kustomize.config.k8s.io/v1beta1
-configMapGenerator:
-- behavior: merge
-kind: Kustomization
-namespace: argocd
-resources:
-- github.com/argoproj-labs/applicationset/manifests?ref=v0.1.0
