@@ -1,8 +1,8 @@
-apiVersion: v2
+---
+apiVersion: v3
 type: application
 name: mongodb-sharded-subchart
 version: 1.0.0
-description: MongoDB chart for Kubernetes
 appVersion: 1.0.0
 dependencies:
   - name: mongodb-sharded

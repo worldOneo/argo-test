@@ -11,3 +11,9 @@ spec:
     repoURL: https://github.com/worldOneo/argo-test
     targetRevision: HEAD
   project: prod
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+    - CreateNamespace=true
