@@ -4,12 +4,10 @@ metadata:
   name: mongodb-prod
 spec:
   destination:
-    name: ''
     namespace: environment-prod
     server: 'https://kubernetes.default.svc'
   source:
     path: 'environments/prod/helmsubs/mongodb'
     repoURL: https://github.com/worldOneo/argo-test
     targetRevision: HEAD
-    chart: mongodb-sharded
   project: prod
