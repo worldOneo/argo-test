@@ -11,7 +11,7 @@ spec:
     path: projects/
     repoURL: "https://github.com/worldOneo/argo-test.git"
     targetRevision: HEAD
-  project: project
+  project: projects
   syncPolicy:
     automated:
       prune: true
