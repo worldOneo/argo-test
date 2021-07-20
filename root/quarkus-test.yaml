@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: quarkus-test
+  namespace: environment-prod
+spec:
+  destination:
+    namespace: environment-prod
+    server: 'https://kubernetes.default.svc'
+  source:
+    path: quarkus-subchart/
+    repoURL: 'https://github.com/christianh814/gitops-examples/tree/master/quarkus-subchart'
+    targetRevision: HEAD
+  project: prod
