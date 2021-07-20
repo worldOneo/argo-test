@@ -3,7 +3,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: mongodb-prod
-  namespace: argocd
+  namespace: meta-ns
 spec:
   destination:
     name: ''

@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/sync-options: PruneLast=true
     argocd.argoproj.io/sync-wave: "-2"
   name: staging
-  namespace: argocd
+  namespace: meta-ns
 spec:
   clusterResourceWhitelist:
   - group: '*'
