@@ -2,11 +2,10 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: projects
-  namespace: environment-projects
 spec:
   destination:
     name: ""
-    namespace: environment-projects
+    namespace: argocd
     server: "https://kubernetes.default.svc"
   source:
     path: projects/
@@ -17,5 +16,3 @@ spec:
     automated:
       prune: true
       selfHeal: true
-    syncOptions:
-      - CreateNamespace=true
