@@ -9,6 +9,6 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: quarkus-subchart/
-    repoURL: 'https://github.com/christianh814/gitops-examples/tree/master/quarkus-subchart'
+    repoURL: 'https://github.com/christianh814/gitops-examples/'
     targetRevision: HEAD
   project: prod
