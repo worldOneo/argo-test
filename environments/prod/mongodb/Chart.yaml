@@ -1,0 +1,8 @@
+apiVersion: v2
+name: mongodb-sharded-subchart
+version: 1.0.1
+appVersion: 1.0.1
+dependencies:
+- name: mongodb-sharded
+  version: 3.7.4
+  repository: https://charts.bitnami.com/bitnami
