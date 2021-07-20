@@ -13,7 +13,7 @@ spec:
     kind: '*'
   description: test project
   destinations:
-  - namespace: '*'
+  - namespace: 'environment-prod'
     server: '*'
   namespaceResourceWhitelist:
   - group: '*'
